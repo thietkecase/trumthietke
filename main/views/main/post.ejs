@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vn">
+    <head>
+        <title>Admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="shortcut icon" href="/favicon.ico">
+    </head>
+    <body>
+        <a id="logout" href="/admin/logout">Thoat</a>
+        <ul>
+            <% posts.forEach(function(post){ %>
+                <li><%= post.name %></li>
+            <% }) %>
+        </ul>
+        <form method="POST">
+            Ten bai viet <input name="post[name]"><br/>
+            Noi dung<br/>
+            <textarea name="post[content]" rows="20" cols="100"></textarea>
+            <button type="submit">Dang bai</button>
+        </form>
+    </body>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+</html>

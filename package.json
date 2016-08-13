@@ -1,0 +1,24 @@
+{
+  "name": "trumthietke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "knex": "^0.11.10",
+    "serve-favicon": "^2.3.0",
+    "sqlite3": "^3.1.4"
+  },
+  "dependencies": {
+    "sqlite3": "^3.1.4"
+  }
+}
